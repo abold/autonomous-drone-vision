@@ -46,7 +46,7 @@ yolo task=detect mode=train \
   model=yolov8n.pt \
   data=data/visdrone_yolo/data.yaml \
   epochs=50 imgsz=512 batch=4 device=mps \
-  project=runs_drone_vision name=yolov8n_clean
+  project=runs_drone_vision name=yolov8n_clean ```
 
 ---
 
