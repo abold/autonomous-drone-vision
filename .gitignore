@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# Large data and results
+data/
+runs/
+runs_drone_vision/
+__pycache__/
+*.pt
+*.zip
+*.mp4
+*.png
+*.jpg
+
+# macOS system files
+.DS_Store
+
