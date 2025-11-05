@@ -59,12 +59,12 @@ yolo task=detect mode=train \
 
 **Loss curves**  
 <p align="center">
-<img src="runs_drone_vision/yolov8n_clean/results.png" width="80%">
+<img src="autonomous_drone_vision/docs/results.png" width="80%">
 </p>
 
 **Confusion Matrix**
 <p align="center">
-<img src="runs_drone_vision/yolov8n_clean/confusion_matrix.png" width="70%">
+<img src="autonomous_drone_vision/docs/confusion_matrix.png" width="70%">
 </p>
 
 ---
