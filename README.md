@@ -39,7 +39,8 @@ The project demonstrates model training, data preparation, and evaluation — wi
 | Batch size | 4 |
 | Device | MPS |
 | Command |
-| | ```bash
+| | 
+```bash
 yolo task=detect mode=train \
 model=yolov8n.pt \
 data=data/visdrone_yolo/data.yaml \
