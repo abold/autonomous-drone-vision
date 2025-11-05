@@ -31,6 +31,7 @@ The project demonstrates model training, data preparation, and evaluation — wi
 ---
 
 ## 🚀 Training Configuration
+
 | Parameter | Value |
 |:--|:--|
 | Model | YOLOv8n (pretrained) |
@@ -38,15 +39,14 @@ The project demonstrates model training, data preparation, and evaluation — wi
 | Image size | 512×512 |
 | Batch size | 4 |
 | Device | MPS |
-| Command |
-| | 
+
+### 🧠 Training Command
 ```bash
 yolo task=detect mode=train \
-model=yolov8n.pt \
-data=data/visdrone_yolo/data.yaml \
-epochs=50 imgsz=512 batch=4 device=mps \
-project=runs_drone_vision name=yolov8n_clean
-``` |
+  model=yolov8n.pt \
+  data=data/visdrone_yolo/data.yaml \
+  epochs=50 imgsz=512 batch=4 device=mps \
+  project=runs_drone_vision name=yolov8n_clean
 
 ---
 
